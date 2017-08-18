@@ -1,12 +1,14 @@
 body {
 	background: url(../img/bg/calculations.jpeg) no-repeat top center fixed;
-	background-size: 100%;
-	width: 100%;
-	height: 100%;
-	margin-top: 5%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .calculator {
+    position: relative;
+    margin-top: 10%;
 	font-family: "Droid Sans";
 	text-align: center;
 	height: auto;
